@@ -1,0 +1,17 @@
+---- vis / ericw-tools v0.18.1 ----
+running with 12 threads
+testlevel = 4
+LoadBSPFile: 'zombie.bsp'
+BSP is version 29
+    15 leafs
+    20 portals
+Calculating Base Vis:
+0....1....2....3....4....5....6....7....8....9...
+Calculating Full Vis:
+0....1....2....3....4....5....6....7....8....9...
+average leafs visible: 10
+c_noclip: 0
+c_chains: 241
+visdatasize:30  compressed from 30
+Writing zombie.bsp as BSP version 29
+  0.1 seconds elapsed
