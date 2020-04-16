@@ -1,33 +1,41 @@
 ---- light / ericw-tools v0.18.1 ----
 Raytracing backend: Embree
 running with 12 threads
-LoadBSPFile: 'zombie.bsp'
+LoadBSPFile: 'iceandfiregreybox.bsp'
 BSP is version 29
 --- LoadEntities ---
-71 entities read, 18 are lights.
+WARNING: entity at (1416 -1032 664) (light) has empty key/value "delay" ""
+WARNING: entity at (800 800 560) (weapon_nailgun) has unmatched "target" (NailGun2)
+WARNING: entity at (608 -1760 400) (item_spikes) has empty key/value "target" ""
+WARNING: entity at (1416 88 664) (light) has empty key/value "delay" ""
+WARNING: entity at (792 712 648) (light) has unmatched "target" (NailGun2)
+WARNING: couldn't parse '' as number for key 'delay'
+WARNING: couldn't parse '' as number for key 'delay'
+154 entities read, 115 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	0 sky faces
-	159 solid faces
+	183 sky faces
+	1732 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 18 initial lights
-SetupLights: 18 after surface lights
-SetupLights: 18 after jittering
+SetupLights: 115 initial lights
+SetupLights: 115 after surface lights
+SetupLights: 115 after jittering
+WARNING: couldn't nudge light in solid at 792.000000 200.000000 552.000000
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7....8....9..
-Final count: 18 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9....
+Final count: 115 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 12797
+lightdatasize: 89633
 0 switchable light styles (32 max)
-Writing zombie.bsp as BSP version 29
-0.130 seconds elapsed
+Writing iceandfiregreybox.bsp as BSP version 29
+0.323 seconds elapsed
 
 stats:
-3.239502 lights tested, 2.982116 hits per sample point
+41.510645 lights tested, 14.445072 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
